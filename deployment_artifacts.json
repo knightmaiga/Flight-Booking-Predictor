@@ -1,0 +1,51 @@
+{
+  "feature_names": [
+    "num_passengers",
+    "purchase_lead",
+    "length_of_stay",
+    "flight_hour",
+    "flight_day",
+    "flight_duration",
+    "sales_channel_Mobile",
+    "trip_type_OneWay",
+    "trip_type_RoundTrip",
+    "booking_origin_Australia",
+    "booking_origin_China",
+    "booking_origin_India",
+    "booking_origin_Indonesia",
+    "booking_origin_Japan",
+    "booking_origin_Malaysia",
+    "booking_origin_South Korea",
+    "booking_origin_Taiwan",
+    "booking_origin_Thailand",
+    "booking_origin_infrequent_sklearn",
+    "wants_extra_baggage",
+    "wants_preferred_seat",
+    "wants_in_flight_meals"
+  ],
+  "numerical_cols": [
+    "num_passengers",
+    "purchase_lead",
+    "length_of_stay",
+    "flight_hour",
+    "flight_day",
+    "flight_duration"
+  ],
+  "categorical_cols": [
+    "sales_channel",
+    "trip_type"
+  ],
+  "high_cardinality_cols": [
+    "booking_origin"
+  ],
+  "binary_cols": [
+    "wants_extra_baggage",
+    "wants_preferred_seat",
+    "wants_in_flight_meals"
+  ],
+  "model_metrics": {
+    "accuracy": 0.6907676699357457,
+    "roc_auc": 0.7373482661179296,
+    "f1_score": 0.3908872901678657
+  }
+}
